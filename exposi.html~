@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <meta charset="utf-8" />
+		<meta name="description" content="Site exposant notre TPE sur L'Impression Tridimensionnelle" />
+		<link rel="stylesheet" href="style.css" />
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type='text/javascript' src='/menu_source/menu_jquery.js'></script>
+	<title>TPE L'impression Tridimensionnelle</title>   
+</head>
+
+<body>
+
+<div id='cssmenu'>
+<ul>
+   <li><a href='index.html'><span>Accueil</span></a></li>
+   <li class='has-sub'><a><span>L'Imprimante 3D</span></a>
+      <ul>
+	 <li><a href='intro.html'><span>Introduction</span></a></li>
+         <li><a href='plastiques3d.html'><span>Les Plastiques Utilisés</span></a></li>
+         <li><a href='methodes.html'><span>Méthodes d’Impression</span></a></li>
+         <li class='last'><a href='avantinconv1.html'><span>Avantages et Inconvénients</span></a></li>
+      </ul>
+   </li>
+   <li class='has-sub'><a><span>En Usine</span></a>
+      <ul>
+         <li><a href='plastiquesusines.html'><span>Les Plastiques Utilisés</span></a></li>
+         <li><a href='transfos.html'><span>La Transformation du plastique</span></a></li>
+         <li class='last'><a href='avantinconv2.html'><span>Avantages et Inconvénients</span></a></li>
+      </ul>
+   </li>
+   <li class='has-sub active'><a><span>Nos Expérimentations</span></a>
+      <ul>
+         <li><a href='exposi.html'><span>Expérimentation en Sciences de l’Ingénieur</span></a></li>
+         <li class='last'><a href='expospc.html'><span>Expérimentation en Sciences Physiques</span></a></li>
+      </ul>
+   </li>
+   <li><a href='conclusion.html'><span>Conclusion</span></a></li>
+   <li class='last'><a href='groupe.html'><span>Notre Groupe</span></a></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+<h1> Expérimentation en Sciences de l’Ingénieur</h1>
+<div class="contenu">
+<p class="presentation"><span class="espace">Afin</span> de pouvoir comparer une pièce industrielle avec une pièce réalisée par impression 3D, nous avons choisi une pièce issue de la production industrielle, puis à partir d’un fichier informatique correspondant à celle-ci, nous l'avons imprimée en 16 exemplaires. La pièce que nous avons choisi est une pièce lego 11 trous "classique" :<br><br>
+<img src="legoindus.jpg"><br><br></p>
+
+<p class="presentation"><span class="espace">Parmi</span> les 16 exemplaires, tous n’ont pas été imprimés de la même manière. Pour nous repérer, nous avons distingué deux catégories :<br>
+-Les pièces imprimées « horizontalement » (huit) : les fils de plastique qui les forment sont dans le sens de la longueur de la pièce (voir photo ci-dessous).<br>
+-Les pièces imprimées « verticalement » (huit) : les fils de plastique sont dans le sens de la hauteur de la pièce (voir photo ci-dessous).<br><br>
+<img src="diffHV.jpg"></p>
+<p class = "centre"> A gauche : une pièce imprimée horizontalement.<br>A droite : une pièce imprimée verticalement.</p>
+<p class="presentation"><br><span class="espace">Afin</span> de comparer les caractéristiques mécaniques des pièces, nous avons réalisé trois types de test : test de traction, de flexion, de compression. Chacun de ces tests a été effectué sur une pièce industrielle, une pièce imprimée horizontalement et une pièce imprimée verticalement.<br><br></p>
+
+
+<br>
+<h3>Test de traction :</h3>
+<br>
+<p class = "presentation"><span class="espace">Le</span> test de traction consiste à appliquer à une pièce deux forces à ses extrémités, dirigées vers l'extérieur, jusqu'à ce qu'elle cède.<br><br>
+<IMG SRC="testtraction.jpg"></p>
+<p class = "centre">Test de traction</p>
+<br>
+<br>
+
+<h3>Test de flexion :</h3>
+<br>
+<p class = "presentation"><span class="espace">Le</span> test de flexion consiste à appliquer à une pièce une force verticale en son centre en stablisant ses extrémités jusqu'à ce qu'elle cède.<br><br>
+<img src="testflexion.jpg"></p>
+<p class = "centre">Test de flexion</p>
+<br><br>
+
+<h3>Test de compression :</h3>
+<br>
+<p class = "presentation"><span class="espace">Le</span> test de compression consiste à appliquer à une pièce deux forces à ses extrémités, dirigées vers l'intérieur, jusqu'à ce qu'elle cède.<br><br>
+<img src="testcomp.jpg"></p>
+<p class = "centre">Test de compression</p>
+<br><br>
+
+
+<h3>Bilan :</h3>
+<br>
+<p class = "presentation"><span class="espace">Grâce</span> au logiciel qui mesure les valeurs lors des tests, on obtient à chaque test une série de valeurs correspondant à la force exercée sur la pièce lego en fonction de la distance parcoure par la/les pièce(s) appliquant la/les force(s).<br><span class="espace">Ce</span> qui nous interesse est la force maximale reçue par les pièces lors des tests. Pour les observer, nous avons mis sous forme de graphique chaque série de valeurs.<br><br>
+
+<br>
+<h6>Résultats des tests de traction :</h6><br>
+<p class = "presentation"><IMG SRC="graphtractionindus.jpg"><br><IMG SRC="graphtraction3dh.jpg"><br><IMG SRC="graphtraction3dv.jpg"></p>
+
+<br>
+<h6>Résultats des tests de flexion :</h6><br>
+<p class = "presentation"><IMG SRC="graphflexionindus.jpg"><br><IMG SRC="graphflexion3dh.jpg"><br><IMG SRC="graphflexion3dv.jpg"></p>
+
+<br>
+<h6>Résultats des tests de compression :</h6><br>
+<p class = "presentation"><IMG SRC="graphcompressionindus.jpg"><br><IMG SRC="graphcompression3dh.jpg"><br><IMG SRC="graphcompression3dv.jpg"></p>
+
+<br><br>
+<h6>Tableau récapitulant les forces maximales subies par les pièces en fonction du test effectué :</h6>
+<br>
+<p class = "presentation"><IMG SRC="tableaucomparatif.jpg"><br></p>
+
+<br>
+<h6>Conclusion :</h6>
+<p class = "presentation"><br><span class="espace">La</span> pièce imprimée horizontalement est beaucoup plus résistante au test de compression, ce qui peut s’expliquer par sa structure. C’est par contre la moins résistante au test de traction.<br><br>
+<span class="espace">La</span> pièce imprimée verticalement est la moins résistante au test de flexion.<br><br>
+<span class="espace">La</span> pièce industrielle est plus résistante aux tests de flexion et de traction, mais c’est aussi la moins résistante au test de compression.</p>
+
+
+
+</div>
+<footer class="footer">
+		             <div>TPE Groupe 8 | L'Impression Tridimensionnelle | Aux Lazaristes 2013-2014<br>contact@tpetridim.fr</div>
+</footer>
+</body>

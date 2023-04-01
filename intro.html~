@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <meta charset="utf-8" />
+		<meta name="description" content="Site exposant notre TPE sur L'Impression Tridimensionnelle" />
+		<link rel="stylesheet" href="style.css" />
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type='text/javascript' src='/menu_source/menu_jquery.js'></script>
+	<title>TPE L'impression Tridimensionnelle</title>   
+</head>
+
+<body>
+
+<div id='cssmenu'>
+<ul>
+   <li><a href='index.html'><span>Accueil</span></a></li>
+   <li class='has-sub active'><a><span>L'Imprimante 3D</span></a>
+      <ul>
+	 <li><a href='intro.html'><span>Introduction</span></a></li>
+         <li><a href='plastiques3d.html'><span>Les Plastiques Utilisés</span></a></li>
+         <li><a href='methodes.html'><span>Méthodes d’Impression</span></a></li>
+         <li class='last'><a href='avantinconv1.html'><span>Avantages et Inconvénients</span></a></li>
+      </ul>
+   </li>
+   <li class='has-sub'><a><span>En Usine</span></a>
+      <ul>
+         <li><a href='plastiquesusines.html'><span>Les Plastiques Utilisés</span></a></li>
+         <li><a href='transfos.html'><span>La Transformation du plastique</span></a></li>
+         <li class='last'><a href='avantinconv2.html'><span>Avantages et Inconvénients</span></a></li>
+      </ul>
+   </li>
+   <li class='has-sub'><a><span>Nos Expérimentations</span></a>
+      <ul>
+         <li><a href='exposi.html'><span>Expérimentation en Sciences de l’Ingénieur</span></a></li>
+         <li class='last'><a href='expospc.html'><span>Expérimentation en Sciences Physiques</span></a></li>
+      </ul>
+   </li>
+   <li><a href='conclusion.html'><span>Conclusion</span></a></li>
+   <li class='last'><a href='groupe.html'><span>Notre Groupe</span></a></li>
+</ul>
+</div>
+
+<h1>Introduction</h1>
+<div class="contenu">
+<p class="presentation"><span class="espace">L’impression</span> 3D (aussi appelée fabrication additive ou numérique directe) est l’action de fabriquer un objet à partir d’une maquette numérique créée à l’aide d’un logiciel de conception assistée par ordinateur (CAO) tel que SolidWorks, AutoCAD, TopSolid et bien d’autres encore.<br><br>
+<IMG SRC="beteacorne.png"></p>
+<p class = "centre"> Diagramme « Bête à Cornes »</p>
+<p class="presentation"><br><span class="espace">L’impression</span> tridimensionnelle est donc un outil facile d’accès pour quiconque, il suffit juste de connaitre les bases de son logiciel de C.A.O pour voir ses idées, ses projets réalisés à l’aide de kits tels que ‘’Do It Yourself’’, commercialisé en 2009 par MakerBot Industries.<br><br>
+<span class="espace">De</span> nos jours, l’impression tridimensionnelle connaît un réel engouement auprès de la population. Ce système n’est toutefois pas récent. En effet, cette technologie naquit vers le milieu des années 80.<br><br> <span class="espace">Le</span> concept d’imprimante 3D a été défini en 1960 par Arthur Clarke qui mentionnait une ‘’machine à répliquer’’ pour révolutionner le monde, mais c’est vers 1983-1984 que les premières machines à impressions 3D, alors appelées « machine à prototypage’’, furent pensées et conçues.<br><br><span class="espace">On</span> doit le concept d’imprimante 3D à Charles Hull, qui est le fondateur du procédé de stéréolitographie (l’objet est obtenu par une lumière UV qui solidifie couche par couche du plastique liquide), procédé sur lequel repose les première machines de chez 3D Systems, sachant que leur utilisation ne servait qu'à la confection de prototypes pour les grandes usines de production.</p>
+
+</div>
+<footer class="footer">
+		             <div>TPE Groupe 8 | L'Impression Tridimensionnelle | Aux Lazaristes 2013-2014<br>contact@tpetridim.fr</div>
+</footer>
+</body>

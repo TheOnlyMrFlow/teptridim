@@ -1,0 +1,314 @@
+<html>
+	<head>
+		<title></title>
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300' rel='stylesheet' type='text/css'>
+	</head>
+	
+	<style>
+		
+		*{
+			margin: 0 auto;
+			font-family:Ubuntu;
+			overflow:hidden;
+			font-weight:300;
+			text-align:justify;
+			
+			position:relative;
+			
+			z-index:0;
+		}
+		
+		p{
+
+			margin:50px 0px;
+			
+		}
+		html,body{
+			padding:0;
+			margin:0;
+			/*background:url('http://assets.ubuntu.com/sites/ubuntu/latest/u/img/backgrounds/image-background-paper.png');*/
+			background:url('bg.jpeg');
+			background-width:100%;
+			background-attachment:fixed;
+			overflow:visible;
+		}
+		
+		.title-wrapper{
+
+			font-size:40px;
+			font-weight:300;
+			
+			display:inline-block;
+			
+			padding:10px;
+			
+			
+			/*margin-left:-120px;
+			margin-right:50px;*/
+			
+			
+			
+			
+			margin-top:-150px;
+			
+			
+			margin-left:-125px;
+		}
+		
+		.img-top{
+			width:calc(100% + 100px);
+			height:200px;
+			background:#F04724;
+			margin:-25px -50px;
+			
+			border-top-left-radius:5px;
+			border-top-right-radius:5px;
+			
+			background:url("f1.jpg");
+			background-size:100%;
+			
+		}
+		
+		aside{
+			background:#1298c6;
+			box-shadow:0px 0px 2px rgba(0,0,0,0.2);
+			
+			border-radius:10px;
+			
+			padding:10px;
+			
+			color:#ffffff;
+			font-size:40px;
+			
+			background:#1298c6;
+			display:inline-block;
+		}
+		
+		h1{
+			padding:10px;
+			
+			font-size:40px;
+			
+			color:#FFFFFF;
+
+			display:inline-block;
+			
+			margin-left:0px;
+			height:50px;
+			
+
+		}
+		
+		header{
+			/*background:#1298c6;*/
+			width:100%;
+			height:52px;
+			
+			/*box-shadow:0px 0px 1px rgba(0,0,0,0.2) inset;*/
+			
+			overflow:visible;
+
+			
+			z-index:1;
+			
+
+		}
+		
+		
+		
+		article{
+			width:60%;
+			
+			padding:25px 50px;
+			margin:75px calc(20% - 50px);
+			
+			margin-top:200px;
+			border-radius:5px;
+			
+			box-shadow:0px 0px 2px rgba(0,0,0,0.2);
+			
+			background:#ffffff;
+			
+			overflow:visible;
+		}
+		
+		footer{
+			background:#0e799e;
+			width:100%;
+
+			box-shadow:0px 0px 2px rgba(0,0,0,0.2) inset;
+			 
+			
+		}
+		
+		.header-center{
+			width:calc(60% + 100px);
+			margin:0 auto;
+			padding:1px 50px;
+			height:50px;
+			column-count: 5;
+			display: flex;
+			
+			overflow:visible;
+		}
+		
+		.footer-center{
+			width:calc(60% + 100px);
+			margin:0 auto;
+			padding:20px 0px;
+
+			
+			column-count: 3;
+			display: flex;
+		}
+		
+		.footer-b{
+			font-size:20px;
+			line-height:40px;
+			
+			margin-top:5px;
+			
+			width:100%;
+			
+			color:#FFFFFF;
+			
+
+			
+
+			text-align:center;
+
+		}
+		
+		.footer-b > p {
+			text-align:center;
+			margin:10px 0px;
+		}
+		
+		.menu-b{
+			font-size:60px;
+			line-height:100px;
+			
+			/*margin-top:5px;*/
+			margin-top:40px;
+			
+			/*width:100%;
+			
+			color:#1298c6;*/
+			
+			/*border-right:2px groove rgba(0,0,0,0.2);*/
+			height:100px;
+
+			text-align:center;
+			
+			transition-duration:0.2s;
+			
+			width:100px;
+			
+			background:transparent;
+			background-size: 500px 100px;
+			/*border-radius:100px;*/
+			
+			/*box-shadow:0px 0px 1px rgba(0,0,0,0.2);*/
+			/*border: 4px solid #1298c6;*/
+		}
+		
+		/*.menu-b:hover{
+			color:89d4ee;
+		}*/
+		
+		/*.menu-b:last-child{
+			border:none;
+		}*/
+	</style>
+	
+	<body>
+		<header>
+			<div class="header-center">
+				<a class="menu-b" style="background:url('3.png');	background-size: 100px 100px;" href="A.html"></a>	
+				<a class="menu-b" style="background:url('1.png');	background-size: 100px 100px;" href="B.html"></a>
+				<a class="menu-b" style="background:url('2.png');	background-size: 100px 100px;" href="C.html"></a>
+				
+
+
+			</div>
+		</header>
+		
+		<article>
+			<div class="img-top"></div>
+			
+			<div class="title-wrapper"><aside>18 nov</aside><h1>Jour 1</h1></div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu pellentesque felis, quis molestie mauris. Proin ac nunc lacus. Nunc mollis, odio eget venenatis mollis, neque leo maximus ligula, vitae tristique nibh elit quis leo. Vivamus leo turpis, porttitor ut velit vitae, suscipit consequat elit. Nunc tortor tellus, rhoncus eu odio id, pellentesque interdum urna. Morbi porttitor augue vel justo finibus consequat. Nulla facilisi. Vestibulum imperdiet sed purus et venenatis. Etiam id enim a ligula consequat varius. Integer a tortor quis sapien auctor consectetur a vel tortor. Nullam volutpat metus mi, a gravida metus tempor ut. Donec accumsan, quam non egestas auctor, ligula arcu consectetur mi, sit amet dictum mauris odio eu augue.</p>
+
+			<p>Fusce blandit orci vitae enim malesuada accumsan. Mauris ornare viverra purus, vitae eleifend ligula dictum sit amet. Cras porttitor, sapien vitae mollis consequat, neque erat feugiat risus, non rhoncus sem elit at mi. Aenean luctus nulla et tortor condimentum, sit amet hendrerit justo accumsan. Nulla tincidunt nisi nisi, nec iaculis lorem laoreet eget. In magna augue, ultricies id pulvinar at, tincidunt vel ex. Vivamus fermentum massa sit amet faucibus sollicitudin. Proin aliquam lorem ac ligula ultrices, sit amet mollis mauris interdum. Donec eget lorem placerat, efficitur arcu quis, egestas lectus. Duis pharetra dui in consectetur cursus. Mauris commodo eu ante vel suscipit. Suspendisse nec enim mi. Phasellus suscipit pellentesque ipsum, ut elementum felis fermentum eget. Proin venenatis, quam mollis pellentesque tristique, risus tortor semper diam, quis bibendum massa est quis justo.</p>
+
+			<p>Suspendisse quis eleifend magna. Nullam lacinia, libero eget posuere facilisis, mauris metus consequat odio, suscipit ullamcorper nisi ex at nisl. Curabitur ut nulla a dolor pharetra cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus sed neque ornare, ultrices leo ac, ultricies quam. Proin viverra ultrices mattis. Nam hendrerit vel neque tristique gravida.</p>
+
+			<p>Duis sit amet arcu posuere, efficitur metus at, dapibus nisl. In id consequat libero, egestas dapibus erat. Maecenas ac feugiat tortor, et aliquam velit. Pellentesque luctus ex sit amet nisi auctor, vel convallis magna condimentum. Morbi mollis ipsum at pretium tincidunt. Donec ut est tellus. Integer eget sapien et mauris molestie rhoncus sed id nulla.</p>
+
+			<p>Ut pharetra tortor nisl, eget condimentum arcu pulvinar in. Etiam a nulla ac felis elementum mattis. Vestibulum pellentesque felis at convallis dapibus. In mattis aliquam tortor, vel iaculis neque tincidunt pulvinar. Maecenas in erat nec mi interdum condimentum eget auctor eros. Integer sodales auctor pulvinar. Sed varius purus blandit felis pretium tincidunt. Phasellus aliquet, nunc sed consectetur porta, mi elit interdum lectus, at viverra mauris nulla vel ex. Curabitur urna sapien, ullamcorper non pellentesque vel, tempus sed purus. Nunc commodo lacinia est, mattis interdum lorem commodo ac. Etiam sed metus eget nunc consectetur dapibus vel non lacus. Sed at porttitor nulla. </p>
+		</article>
+		<article>
+			<div class="img-top"></div>
+			
+			<div class="title-wrapper"><aside>18 nov</aside><h1>one !</h1></div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu pellentesque felis, quis molestie mauris. Proin ac nunc lacus. Nunc mollis, odio eget venenatis mollis, neque leo maximus ligula, vitae tristique nibh elit quis leo. Vivamus leo turpis, porttitor ut velit vitae, suscipit consequat elit. Nunc tortor tellus, rhoncus eu odio id, pellentesque interdum urna. Morbi porttitor augue vel justo finibus consequat. Nulla facilisi. Vestibulum imperdiet sed purus et venenatis. Etiam id enim a ligula consequat varius. Integer a tortor quis sapien auctor consectetur a vel tortor. Nullam volutpat metus mi, a gravida metus tempor ut. Donec accumsan, quam non egestas auctor, ligula arcu consectetur mi, sit amet dictum mauris odio eu augue.</p>
+
+			<p>Fusce blandit orci vitae enim malesuada accumsan. Mauris ornare viverra purus, vitae eleifend ligula dictum sit amet. Cras porttitor, sapien vitae mollis consequat, neque erat feugiat risus, non rhoncus sem elit at mi. Aenean luctus nulla et tortor condimentum, sit amet hendrerit justo accumsan. Nulla tincidunt nisi nisi, nec iaculis lorem laoreet eget. In magna augue, ultricies id pulvinar at, tincidunt vel ex. Vivamus fermentum massa sit amet faucibus sollicitudin. Proin aliquam lorem ac ligula ultrices, sit amet mollis mauris interdum. Donec eget lorem placerat, efficitur arcu quis, egestas lectus. Duis pharetra dui in consectetur cursus. Mauris commodo eu ante vel suscipit. Suspendisse nec enim mi. Phasellus suscipit pellentesque ipsum, ut elementum felis fermentum eget. Proin venenatis, quam mollis pellentesque tristique, risus tortor semper diam, quis bibendum massa est quis justo.</p>
+
+			<p>Suspendisse quis eleifend magna. Nullam lacinia, libero eget posuere facilisis, mauris metus consequat odio, suscipit ullamcorper nisi ex at nisl. Curabitur ut nulla a dolor pharetra cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus sed neque ornare, ultrices leo ac, ultricies quam. Proin viverra ultrices mattis. Nam hendrerit vel neque tristique gravida.</p>
+
+			<p>Duis sit amet arcu posuere, efficitur metus at, dapibus nisl. In id consequat libero, egestas dapibus erat. Maecenas ac feugiat tortor, et aliquam velit. Pellentesque luctus ex sit amet nisi auctor, vel convallis magna condimentum. Morbi mollis ipsum at pretium tincidunt. Donec ut est tellus. Integer eget sapien et mauris molestie rhoncus sed id nulla.</p>
+
+			<p>Ut pharetra tortor nisl, eget condimentum arcu pulvinar in. Etiam a nulla ac felis elementum mattis. Vestibulum pellentesque felis at convallis dapibus. In mattis aliquam tortor, vel iaculis neque tincidunt pulvinar. Maecenas in erat nec mi interdum condimentum eget auctor eros. Integer sodales auctor pulvinar. Sed varius purus blandit felis pretium tincidunt. Phasellus aliquet, nunc sed consectetur porta, mi elit interdum lectus, at viverra mauris nulla vel ex. Curabitur urna sapien, ullamcorper non pellentesque vel, tempus sed purus. Nunc commodo lacinia est, mattis interdum lorem commodo ac. Etiam sed metus eget nunc consectetur dapibus vel non lacus. Sed at porttitor nulla. </p>
+		</article>
+		<article>
+			<div class="img-top"></div>
+			
+			<div class="title-wrapper"><aside>18 nov</aside><h1>one !</h1></div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu pellentesque felis, quis molestie mauris. Proin ac nunc lacus. Nunc mollis, odio eget venenatis mollis, neque leo maximus ligula, vitae tristique nibh elit quis leo. Vivamus leo turpis, porttitor ut velit vitae, suscipit consequat elit. Nunc tortor tellus, rhoncus eu odio id, pellentesque interdum urna. Morbi porttitor augue vel justo finibus consequat. Nulla facilisi. Vestibulum imperdiet sed purus et venenatis. Etiam id enim a ligula consequat varius. Integer a tortor quis sapien auctor consectetur a vel tortor. Nullam volutpat metus mi, a gravida metus tempor ut. Donec accumsan, quam non egestas auctor, ligula arcu consectetur mi, sit amet dictum mauris odio eu augue.</p>
+
+			<p>Fusce blandit orci vitae enim malesuada accumsan. Mauris ornare viverra purus, vitae eleifend ligula dictum sit amet. Cras porttitor, sapien vitae mollis consequat, neque erat feugiat risus, non rhoncus sem elit at mi. Aenean luctus nulla et tortor condimentum, sit amet hendrerit justo accumsan. Nulla tincidunt nisi nisi, nec iaculis lorem laoreet eget. In magna augue, ultricies id pulvinar at, tincidunt vel ex. Vivamus fermentum massa sit amet faucibus sollicitudin. Proin aliquam lorem ac ligula ultrices, sit amet mollis mauris interdum. Donec eget lorem placerat, efficitur arcu quis, egestas lectus. Duis pharetra dui in consectetur cursus. Mauris commodo eu ante vel suscipit. Suspendisse nec enim mi. Phasellus suscipit pellentesque ipsum, ut elementum felis fermentum eget. Proin venenatis, quam mollis pellentesque tristique, risus tortor semper diam, quis bibendum massa est quis justo.</p>
+
+			<p>Suspendisse quis eleifend magna. Nullam lacinia, libero eget posuere facilisis, mauris metus consequat odio, suscipit ullamcorper nisi ex at nisl. Curabitur ut nulla a dolor pharetra cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus sed neque ornare, ultrices leo ac, ultricies quam. Proin viverra ultrices mattis. Nam hendrerit vel neque tristique gravida.</p>
+
+			<p>Duis sit amet arcu posuere, efficitur metus at, dapibus nisl. In id consequat libero, egestas dapibus erat. Maecenas ac feugiat tortor, et aliquam velit. Pellentesque luctus ex sit amet nisi auctor, vel convallis magna condimentum. Morbi mollis ipsum at pretium tincidunt. Donec ut est tellus. Integer eget sapien et mauris molestie rhoncus sed id nulla.</p>
+
+			<p>Ut pharetra tortor nisl, eget condimentum arcu pulvinar in. Etiam a nulla ac felis elementum mattis. Vestibulum pellentesque felis at convallis dapibus. In mattis aliquam tortor, vel iaculis neque tincidunt pulvinar. Maecenas in erat nec mi interdum condimentum eget auctor eros. Integer sodales auctor pulvinar. Sed varius purus blandit felis pretium tincidunt. Phasellus aliquet, nunc sed consectetur porta, mi elit interdum lectus, at viverra mauris nulla vel ex. Curabitur urna sapien, ullamcorper non pellentesque vel, tempus sed purus. Nunc commodo lacinia est, mattis interdum lorem commodo ac. Etiam sed metus eget nunc consectetur dapibus vel non lacus. Sed at porttitor nulla. </p>
+		</article>
+		<article>
+			<div class="img-top"></div>
+			
+			<div class="title-wrapper"><aside>18 nov</aside><h1>one !</h1></div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu pellentesque felis, quis molestie mauris. Proin ac nunc lacus. Nunc mollis, odio eget venenatis mollis, neque leo maximus ligula, vitae tristique nibh elit quis leo. Vivamus leo turpis, porttitor ut velit vitae, suscipit consequat elit. Nunc tortor tellus, rhoncus eu odio id, pellentesque interdum urna. Morbi porttitor augue vel justo finibus consequat. Nulla facilisi. Vestibulum imperdiet sed purus et venenatis. Etiam id enim a ligula consequat varius. Integer a tortor quis sapien auctor consectetur a vel tortor. Nullam volutpat metus mi, a gravida metus tempor ut. Donec accumsan, quam non egestas auctor, ligula arcu consectetur mi, sit amet dictum mauris odio eu augue.</p>
+
+			<p>Fusce blandit orci vitae enim malesuada accumsan. Mauris ornare viverra purus, vitae eleifend ligula dictum sit amet. Cras porttitor, sapien vitae mollis consequat, neque erat feugiat risus, non rhoncus sem elit at mi. Aenean luctus nulla et tortor condimentum, sit amet hendrerit justo accumsan. Nulla tincidunt nisi nisi, nec iaculis lorem laoreet eget. In magna augue, ultricies id pulvinar at, tincidunt vel ex. Vivamus fermentum massa sit amet faucibus sollicitudin. Proin aliquam lorem ac ligula ultrices, sit amet mollis mauris interdum. Donec eget lorem placerat, efficitur arcu quis, egestas lectus. Duis pharetra dui in consectetur cursus. Mauris commodo eu ante vel suscipit. Suspendisse nec enim mi. Phasellus suscipit pellentesque ipsum, ut elementum felis fermentum eget. Proin venenatis, quam mollis pellentesque tristique, risus tortor semper diam, quis bibendum massa est quis justo.</p>
+
+			<p>Suspendisse quis eleifend magna. Nullam lacinia, libero eget posuere facilisis, mauris metus consequat odio, suscipit ullamcorper nisi ex at nisl. Curabitur ut nulla a dolor pharetra cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus sed neque ornare, ultrices leo ac, ultricies quam. Proin viverra ultrices mattis. Nam hendrerit vel neque tristique gravida.</p>
+
+			<p>Duis sit amet arcu posuere, efficitur metus at, dapibus nisl. In id consequat libero, egestas dapibus erat. Maecenas ac feugiat tortor, et aliquam velit. Pellentesque luctus ex sit amet nisi auctor, vel convallis magna condimentum. Morbi mollis ipsum at pretium tincidunt. Donec ut est tellus. Integer eget sapien et mauris molestie rhoncus sed id nulla.</p>
+
+			<p>Ut pharetra tortor nisl, eget condimentum arcu pulvinar in. Etiam a nulla ac felis elementum mattis. Vestibulum pellentesque felis at convallis dapibus. In mattis aliquam tortor, vel iaculis neque tincidunt pulvinar. Maecenas in erat nec mi interdum condimentum eget auctor eros. Integer sodales auctor pulvinar. Sed varius purus blandit felis pretium tincidunt. Phasellus aliquet, nunc sed consectetur porta, mi elit interdum lectus, at viverra mauris nulla vel ex. Curabitur urna sapien, ullamcorper non pellentesque vel, tempus sed purus. Nunc commodo lacinia est, mattis interdum lorem commodo ac. Etiam sed metus eget nunc consectetur dapibus vel non lacus. Sed at porttitor nulla. </p>
+		</article>
+			
+		<footer>
+			<div class="footer-center">
+				<div class="footer-b">
+					<p>Telephone: 06 37 42 56 29</p>
+					<p>Telephone: 06 37 42 56 29</p>
+					<p>Telephone: 06 37 42 56 29</p>
+					
+				</div>
+				<div class="footer-b">
+					<p>Telephone: 06 37 42 56 29</p>
+					<p>Telephone: 06 37 42 56 29</p>
+					<p>Telephone: 06 37 42 56 29</p>
+				</div>
+				<div class="footer-b">
+					<p>Telephone: 06 37 42 56 29</p>
+					<p>Telephone: 06 37 42 56 29</p>
+					<p>Telephone: 06 37 42 56 29</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

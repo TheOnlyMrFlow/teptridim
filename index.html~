@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <meta charset="utf-8" />
+		<meta name="description" content="Site exposant notre TPE sur L'Impression Tridimensionnelle" />
+		<link rel="stylesheet" href="style.css" />
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type='text/javascript' src='/menu_source/menu_jquery.js'></script>
+	<title>TPE L'impression Tridimensionnelle</title>   
+</head>
+
+<!--<body style="background : url(3D.jpg) 50% 50% fixed no-repeat;t;">-->
+<body>
+
+<div id='cssmenu'>
+<ul>
+   <li class='active'><a href='index.html'><span>Accueil</span></a></li>
+   <li class='has-sub'><a><span>L'Imprimante 3D</span></a>
+      <ul>
+	 <li><a href='intro.html'><span>Introduction</span></a></li>
+         <li><a href='plastiques3d.html'><span>Les Plastiques Utilisés</span></a></li>
+         <li><a href='methodes.html'><span>Méthodes d’Impression</span></a></li>
+         <li class='last'><a href='avantinconv1.html'><span>Avantages et Inconvénients</span></a></li>
+      </ul>
+   </li>
+   <li class='has-sub'><a><span>En Usine</span></a>
+      <ul>
+         <li><a href='plastiquesusines.html'><span>Les Plastiques Utilisés</span></a></li>
+         <li><a href='transfos.html'><span>La Transformation du plastique</span></a></li>
+         <li class='last'><a href='avantinconv2.html'><span>Avantages et Inconvénients</span></a></li>
+      </ul>
+   </li>
+   <li class='has-sub'><a><span>Nos Expérimentations</span></a>
+      <ul>
+         <li><a href='exposi.html'><span>Expérimentation en Sciences de l’Ingénieur</span></a></li>
+         <li class='last'><a href='expospc.html'><span>Expérimentation en Sciences Physiques</span></a></li>
+      </ul>
+   </li>
+   <li><a href='conclusion.html'><span>Conclusion</span></a></li>
+   <li class='last'><a href='groupe.html'><span>Notre Groupe</span></a></li>
+</ul>
+</div>
+
+<h1> TPE: L'impression Tridimensionnelle</h1>
+<div class="contenu">
+<p class="presentation"><span class="espace">Bonjour</span> et bienvenue sur notre site.<br><br><span class="espace">Vous</span> y trouverez un aperçu du travail que nous avons effectué durant la période des TPE.<br><br></p>
+<p class="presentation"><span class="espace">Pour</span> nos Travaux Personnels Encadrés nous avons choisi le sujet de L'Impression Tridimensionnelle qui s'inscrit dans le thème "Matière et Forme". Ce sujet nous a inspiré car il traite d'une technologie en plein expansion, en constante évolution, et qui a donc un réel potentiel dans l'avenir, d'où la problématique suivante :<br><br></p>
+<h5 class="centre">L'utilisation de l'imprimante 3D se justifie-t-elle<br>par rapport aux procédés de moulage<br>de la matière plastique ?</h5><br>
+<p class="presentation"><span class="espace"></span>Pour répondre à cette problématique, nous avons effectué en premier lieu un travail de recherche, puis des expériences, que nous présenterons dans les différentes parties du site.</p>
+</br><br>
+<p class="centre">Bonne visite !</p>
+</div>
+<footer class="footer">
+		             <div>TPE Groupe 8 | L'Impression Tridimensionnelle | Aux Lazaristes 2013-2014<br>contact@tpetridim.fr</div>
+</footer>
+</body>

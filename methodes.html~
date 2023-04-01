@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <meta charset="utf-8" />
+		<meta name="description" content="Site exposant notre TPE sur L'Impression Tridimensionnelle" />
+		<link rel="stylesheet" href="style.css" />
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type='text/javascript' src='/menu_source/menu_jquery.js'></script>
+	<title>TPE L'impression Tridimensionnelle</title>   
+</head>
+
+<body>
+
+<div id='cssmenu'>
+<ul>
+   <li><a href='index.html'><span>Accueil</span></a></li>
+   <li class='has-sub active'><a><span>L'Imprimante 3D</span></a>
+      <ul>
+	 <li><a href='intro.html'><span>Introduction</span></a></li>
+         <li><a href='plastiques3d.html'><span>Les Plastiques Utilisés</span></a></li>
+         <li><a href='methodes.html'><span>Méthodes d’Impression</span></a></li>
+         <li class='last'><a href='avantinconv1.html'><span>Avantages et Inconvénients</span></a></li>
+      </ul>
+   </li>
+   <li class='has-sub'><a><span>En Usine</span></a>
+      <ul>
+         <li><a href='plastiquesusines.html'><span>Les Plastiques Utilisés</span></a></li>
+         <li><a href='transfos.html'><span>La Transformation du plastique</span></a></li>
+         <li class='last'><a href='avantinconv2.html'><span>Avantages et Inconvénients</span></a></li>
+      </ul>
+   </li>
+   <li class='has-sub'><a><span>Nos Expérimentations</span></a>
+      <ul>
+         <li><a href='exposi.html'><span>Expérimentation en Sciences de l’Ingénieur</span></a></li>
+         <li class='last'><a href='expospc.html'><span>Expérimentation en Sciences Physiques</span></a></li>
+      </ul>
+   </li>
+   <li><a href='conclusion.html'><span>Conclusion</span></a></li>
+   <li class='last'><a href='groupe.html'><span>Notre Groupe</span></a></li>
+</ul>
+</div>
+
+<h1> Méthodes d'Impressions</h1>
+<div class="contenu">
+<p class="presentation"><span class="espace">L’impression</span> tridimensionnelle est une technique d’impression ‘’additive’’. En effet l’imprimante va travailler par superposition de couches de matière (plus ou moins fines, de l’ordre du micromètre). Il existe trois technologies d’impressions tridimensionnelles principales :</p>
+<p class="presentation"><br>• Le F.D.M (Fuse Deposition Modeling) ou communément appelé «La méthode de l’araignée » : l’élément essentiel de l’imprimante est la tête d’impression. Elle transporte un fil de matière qui se déroule depuis une bobine. La tête d’impression chauffe l’extrémité du fil et le fond. Etant sur un bras mobile, elle dépose ce fil fondu en dessinant les motifs de la couche. La température de chauffe varie de 80°C à 190°C (suivant le plastique utilisé). La matière est déposée en ‘’nid d’abeille’’, ce qui permet de produire des pièces légères, résistantes et économes en matériaux.<br><br>
+<IMG SRC="schemaFDM.jpg"></p>
+<p class="centre"> Schéma d'explication du FDM</p>
+<p class = 'presentation'><br>• Le S.L.A (StereoLithography Apparatus) ou la méthode dite ‘’de la Méduse’’ : la plateforme sur laquelle va être imprimé l’objet s’enfonce dans une cuve de résine liquide, de la hauteur d’une couche de matière. Ensuite, un rayon laser dessine le motif de la couche sur la surface liquide. Au contact de cette lumière, le liquide devient solide.<br><br><IMG SRC="schemaSLA.jpg"></p>
+<p class="centre">Schéma d'explication du SLA</p>
+<p class = 'presentation'><br>• Le S.L.S (Selective Laser Sintering) ou encore appelé la ‘’méthode du potier’’ : le matériau de base est une poudre qui se solidifie sous l’effet de la chaleur. Un laser apporte de la chaleur sur une très petite surface. A cet endroit la poudre va s’agglomérer et former un solide compact. Dans ce procédé, trois étapes se répètent : un réservoir dépose une fine couche de poudre sur toute une surface puis un bras mécanique muni d’un laser (bloc optique) dessine le motif et enfin un nouveau film de poudre est déposé avant que le laser ne dessine la couche suivante.<br><br>
+<IMG SRC="schemasSLS.jpg"></p>
+<p class="centre"> Schéma d'explication du SLS</p>
+<p class = 'presentation'><br><br><span class="espace">Toutefois</span> on remarque donc une similitude dans toutes ces méthodes d’impressions que l’on peut brièvement résumer ainsi : <br><br>• Modélisation de l’objet dans un logiciel de C.A.O,<br><br>• Envoi des données à l’imprimante 3D,<br><br>• Découpe de l'objet virtuel tridimensionnel en lamelles 2D d'épaisseur très fine,<br><br>• Superposition des lamelles extrafines les unes après les autres : selon la technique, la superposition peut se faire :</p>
+<p class = 'tab'><br>- grâce à un fil de matériau d'un 10ème de millimètre chauffé par une buse ;<br>- grâce à une couche de résine ou une poudre photopolymère déposée sur un film transparent qui se durcit quand l'image de la coupe en 2D est projetée dessus. Cette technique est la stéréolithographie ;<br>- grâce à une résine liquide appliquée de la même manière qu'une imprimante jet d'encre.<br><br></p>
+<p class= 'presentation'>• Reconstitution de l'objet réel.<br><br><br>
+<span class="espace">De</span> nos jours, l’impression 3D ne s’applique pas uniquement aux matières plastiques mais aussi au niveau de l’alimentaire (reconstitution artificielle d’aliments), au niveau biologique avec l’impression de cellules vivantes mais également au niveau de la micro-électronique (en effet, des tests sont effectués afin d'imprimer de petits circuits électroniques dans la matière).</p>
+
+
+</div>
+<footer class="footer">
+		             <div>TPE Groupe 8 | L'Impression Tridimensionnelle | Aux Lazaristes 2013-2014<br>contact@tpetridim.fr</div>
+</footer>
+</body>

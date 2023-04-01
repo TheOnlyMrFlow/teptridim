@@ -1,0 +1,53 @@
+<html>
+    <head>
+	    <meta charset="utf-8" />
+		<meta name="description" content="Site exposant notre TPE sur L'Impression Tridimensionnelle" />
+		<link rel="stylesheet" href="style.css" />
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type='text/javascript' src='/menu_source/menu_jquery.js'></script>
+	<title>TPE L'impression Tridimensionnelle</title>   
+</head>
+
+<body>
+
+<div id='cssmenu'>
+<ul>
+   <li><a href='index.html'><span>Accueil</span></a></li>
+   <li class='has-sub'><a><span>L'Imprimante 3D</span></a>
+      <ul>
+	 <li><a href='intro.html'><span>Introduction</span></a></li>
+         <li><a href='plastiques3d.html'><span>Les Plastiques Utilisés</span></a></li>
+         <li><a href='methodes.html'><span>Méthodes d’Impression</span></a></li>
+         <li class='last'><a href='avantinconv1.html'><span>Avantages et Inconvénients</span></a></li>
+      </ul>
+   </li>
+   <li class='has-sub'><a><span>En Usine</span></a>
+      <ul>
+         <li><a href='plastiquesusines.html'><span>Les Plastiques Utilisés</span></a></li>
+         <li><a href='transfos.html'><span>La Transformation du plastique</span></a></li>
+         <li class='last'><a href='avantinconv2.html'><span>Avantages et Inconvénients</span></a></li>
+      </ul>
+   </li>
+   <li class='has-sub'><a><span>Nos Expérimentations</span></a>
+      <ul>
+         <li><a href='exposi.html'><span>Expérimentation en Sciences de l’Ingénieur</span></a></li>
+         <li class='last'><a href='expospc.html'><span>Expérimentation en Sciences Physiques</span></a></li>
+      </ul>
+   </li>
+   <li><a href='conclusion.html'><span>Conclusion</span></a></li>
+   <li class='last active'><a href='groupe.html'><span>Notre Groupe</span></a></li>
+</ul>
+</div>
+
+<h1> Notre Groupe </h1>
+<div class="contenu">
+<p class="presentation"><span class="espace">Les</span> auteurs de ce TPE sont :</p>
+<p class="presentation"><br>Benoît BAILLY<br>Florian COMTE<br>Thomas GARCIA<br>Hugo VIDAL</p>
+<p class="presentation"><br><span class="espace">Nous</span> sommes tous les quatre des élèves de la première S3 (SI) du lycée Aux Lazaristes à Lyon et avons réalisé ce TPE au cours de l'année scolaire 2013-2014.</p>
+<p class="presentation"><br><span class="espace">Outre</span> sa fonction de présentation de notre TPE, nous espérons que ce site sera utile aux plus nombreux, c'est pourquoi nous le maintiendront en ligne aussi longtemps que possible. N'hésitez donc pas à utiliser les informations qu'il contient ! Nous serions heureux de rendre service !
+<br><br><span class="phrasegentil"><span class="espace">Remerciements</span> à nos professeurs encadrants : Mme Daubeuf, M.Cristophe et M.Aureille</span></p>
+</div>
+<footer class="footer">
+		             <div>TPE Groupe 8 | L'Impression Tridimensionnelle | Aux Lazaristes 2013-2014<br>contact@tpetridim.fr</div>
+</footer>
+</body>
